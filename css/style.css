@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.btn {
+    padding: 10px 30px;
+    color: red;
+    background: yellow;
+    border: 2px solid red;
+    transition: .4s;
+}
+
+.btn:hover {
+    color: yellow;
+    background: red;
+    border: 2px solid yellow;
+    transform: scale(1.2);
+}
+
+.btn2 {
+    padding: 10px 30px;
+    color: yellow;
+    background: red;
+    border: 2px solid yellow;
+    transition: .4s;
+}
+
+.btn2:active {
+    color: red;
+    background: yellow;
+    border: 2px solid wheat;
+    transform: scale(1.2);
+}
+
+.btn3 {
+    padding: 10px 30px;
+    color: green;
+    background: peachpuff;
+    border: 2px solid cadetblue;
+    transition: .4s;
+}
+
+.btn3:focus {
+    color: peachpuff;
+    background: green;
+    border: 2px solid peachpuff;
+    transform: scale(1.1);
+}
+
+.block {
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 3px 13px;
+    transition: .4s;
+    position: relative;
+}
+
+.block:hover {
+    transform: scale(1.2);
+    margin-left: 10px;
+}
+
+.block:before {
+    position: absolute;
+    content: "";
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 3px 13px;
+    left:200px;
+}
+
+.block:after {
+    position: absolute;
+    content: "";
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 3px 13px;
+    top: 200px;
+    left:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
